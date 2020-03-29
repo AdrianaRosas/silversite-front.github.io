@@ -1,0 +1,33 @@
+{
+    "cities": [
+      {
+        "section": "INICIO",
+        "label": "INICIO"
+      },
+      {
+        "section": "TUBERIAS",
+        "label": "TUBERIAS"
+      },
+      {
+        "section": "CONEXIONES",
+        "label": "CONEXIONES"
+      },
+      {
+        "section": "VALVULAS",
+        "label": "VALVULAS"
+      },
+      {
+        "section": "CEMENTOS",
+        "label": "CEMENTOS"
+      },
+      {
+        "section": "ACCESORIOS",
+        "label": "ACCESORIOS"
+      },
+      {
+        "section": "CLIENTE PREFERENTE",
+        "label": "CLIENTE PREFERENTE"
+      }
+    ]
+  }
+  

@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import logoHeader from './stuff/logo-tuvamex.png';
-
-// const logoHeader = require('./stuff/logo-tuvamex.png')
+import logo from './stuff/logo-tuvamex.png'
 
 class Header extends React.Component {
     render(
@@ -10,75 +8,94 @@ class Header extends React.Component {
         return (
             <div className="header-cointainer">
               <div className="logo-contact">
-                  {/* <img src=""/> */}
+                  <img src={logo}/>
                   </div> 
                   <div className="header-contact">
                       <div className="cotiza">
-                        <img src=""/>
+                        <img src= "https://image.flaticon.com/icons/svg/1034/1034240.svg"/>
                           <div className="info-cotiza">
-                             <p>800 3679764</p>
                              <p>COTIZA AHORA</p>
+                             <p>800 3679764</p>
                           </div>
                        </div>
                           
-                      <div className="llamanos">
+                      {/* <div className="llamanos"> */}
                       <div className="cotiza">
-                          <img src=""/>
+                         <img src= "https://image.flaticon.com/icons/svg/1034/1034236.svg"/> 
                           <div className="info-cotiza">
                           <p>LLAMANOS:</p>
                           <h1>55 5749-3539</h1>
                           <h1>Whatsapp: 55 2563 6863</h1>
                           </div>
-                      </div>
+                      {/* </div> */}
                       </div>
                   </div>
               <style jsx>{`
               div,
             .header-container{
-                width: 100%;
                 height: 100%;
                 display:flex;
-                background-color: green;
+                align-items: flex-start;
+                // background-color: violet;
+                // margin-bottom: 1rem;
             },
             .logo-contact{
-                width: 50%;
+                width: 55%;
                 height: 90%;
-                background-color: pink;
+                margin: 0 8% 0 2%;
+                // background-color: pink;
             },
+            .logo-contact img{
+                width: 30%;
+                height: 100%;
+                // background: gray;
+            }
             .header-contact {
-                width: 45%;
-                height: 90%;
-                background-color: orange;
+                width: 40%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                // background-color: black;
             },
-            .cotiza, .llamanos {
-                width: 70%;
-                height: 90%;
+            .cotiza{
+                width: 60%;
+                height: 80%;
                 display:flex
                 justify-content: center;
                 align-items: center;
-                background-color: red;
+                // background-color: gray;
             },
             .cotiza img{
-                width: 90px;
-                height: 90px;
+                width: 45px;
+                height: 45px;
             }
             .info-cotiza {
-                width: 40%;
-                height: 90%;
                 display: flex;
+                justify-content: center;
+                align-items: flex-start;
                 flex-direction: column;  
-                background-color: gray;
+                // background-color: yellow;
             }
             .info-cotiza p:first-child {
-                width: 80%;
-                color: white;
-                font-size: 0.5rem;
-                background-color: black;
+                display: flex;
+                align-items: center;
+                font-family: 'Raleway', sans-serif;
+                height: 50%;
+                width: 90%;
+                color: #000;
+                font-size: 0.8rem;
             },
-            .info-cotiza p:nth-child(1) {
-                width: 80%;
-                font-size: 0.5rem;
-                color: pink;
+            .info-cotiza h1 {
+                // background-color: violet;
+                display: flex;
+                align-items: center;
+                font-family: 'Raleway', sans-serif;
+                height: 60%;
+                width: 100%;
+                font-size: 0.8rem;
+                font-weight: lighter;
+                color: #000;
             }
 
             
