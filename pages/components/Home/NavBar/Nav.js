@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from "react";
 import * as data from "../NavBar/Navigation.json";
-// import '../../Home/NavBar/Nav.css'
 
 class NavBar extends Component {
   static propTypes = {};

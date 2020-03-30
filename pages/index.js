@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './Home';
 import NavBar from './components/Home/NavBar/Nav';
-import Slideshow from './components/Home/PhotoSlide/Gallery'
+import Slideshow from './components/Home/PhotoSlide/Gallery';
+import LinePRoducts from './LineProducts'
 
 export default function Index() {
     return (
@@ -15,12 +16,14 @@ export default function Index() {
           <section className = "gallery-section">
             <Slideshow />
           </section>
+          <section className = "info-products-section">
+             <LinePRoducts />
+          </section>
           
         <style jsx>{`
               section,
             .header {
               height: 12vh;
-              //  background: blue;
             };
             hr {
               height: 0.5px;
@@ -34,6 +37,13 @@ export default function Index() {
               justify-content: flex-end;
               height: 112vh;
               // background: green;
+            }
+            .info-products-section{
+              height: 100vh;
+              display: flex;
+              align-items:center;
+              justify-content: center;
+              background: #C5CAD9;
             }
 
 

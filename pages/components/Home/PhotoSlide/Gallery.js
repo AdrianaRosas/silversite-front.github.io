@@ -3,8 +3,6 @@ import { render } from 'react-dom';
 import Carousel from 'nuka-carousel';
 import prev from '../../../stuff/back.svg'
 
-
-
 class Slideshow extends Component {
   render() {
     return(
@@ -67,9 +65,6 @@ class Slideshow extends Component {
             background-repeat: no-repeat;
             background-position: center;
         }
-
-
-            
          `}</style>
       </div>
     )
